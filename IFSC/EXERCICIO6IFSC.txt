@@ -1,0 +1,14 @@
+Com as declarações:
+real soma, x
+string nome, cor
+booleano cod, teste, tudo
+
+
+Assinale com um X os comandos de atribuição válidos.
+( ) teste = cod OU ((x)*2 <> soma)
+( ) tudo = soma
+( ) x = nome >= cor
+( ) cod = cor = 'verde'
+( ) tudo = NÃO teste OU cod E (soma < x)
+
+NENHUM DOS COMANDOS DE ATRIBUIÇÃO SÃO VÁLIDOS 
