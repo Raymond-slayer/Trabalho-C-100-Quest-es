@@ -13,4 +13,4 @@ printf("A area do triangulo e: %d^2\n", area);
 
 return 0;
 
-
+}
