@@ -1,0 +1,7 @@
+Qual é o resultado das operações quando o algoritmo encontrar as seguintes
+linhas:
+a) Escreva ('mario' = 'maria'); FALSO
+b) Escreva (2 + 4 = 6); VERDADEIRO
+c) Escreva (10 - 4 > 7); FALSO
+d) Escreva ((2*3)>(3*2)); FALSO
+e) Escreva (não('a' > 'A'));FALSO
