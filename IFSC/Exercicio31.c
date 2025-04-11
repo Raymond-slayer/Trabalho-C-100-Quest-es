@@ -9,7 +9,7 @@ int a, b;
 printf("Digite um numero a:  ");
 scanf("%i", &a);
 
-printf("Digite um segundo número b:  ");
+printf("Digite um segundo nÃºmero b:  ");
 scanf("%i", &b);
 
 
