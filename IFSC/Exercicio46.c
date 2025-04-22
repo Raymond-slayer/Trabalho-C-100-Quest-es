@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /*
-46. Um hotel cobra R$ 60.00 a di·ria e mais uma taxa de serviÁos. A taxa de
-serviÁos È de:
-ï R$ 5.50 por di·ria, se o n˙mero de di·rias for maior que 15;
-ï R$ 6.00 por di·ria, se o n˙mero de di·rias for igual a 15;
-ï R$ 8.00 por di·ria, se o n˙mero de di·rias for menor que 15.
+46. Um hotel cobra R$ 60.00 a di√°ria e mais uma taxa de servi√ßos. A taxa de
+servi√ßos √© de:
+‚Ä¢ R$ 5.50 por di√°ria, se o n√∫mero de di√°rias for maior que 15;
+‚Ä¢ R$ 6.00 por di√°ria, se o n√∫mero de di√°rias for igual a 15;
+‚Ä¢ R$ 8.00 por di√°ria, se o n√∫mero de di√°rias for menor que 15.
 Construa um algoritmo que mostre o nome e o total da conta de um cliente.*/
 
 int main()
