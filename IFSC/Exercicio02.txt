@@ -1,0 +1,28 @@
+2. Escreva em pseudocódigo, as seguintes expressões matemáticas:
+
+a)
+LEIA A, B ,C
+RESULTADO ← (A + B) * C
+ESCREVA  RESULTADO  
+
+b)
+LEIA TOTAL , N
+RESULTADO  ← TOTAL / N
+ESCREVA RESULTADO
+
+c)
+LEIA A, B, C,D, E
+D2 ← POTENCIA(D, 2)
+RESULTADO ← A - B * (C + D^2) / E
+ESCREVA RESULTADO 
+
+e)
+LEIA BASE, EXPOENTE
+RESULTADO ←POTENCIA(BASE, EXPOENTE)
+ESCREVA RESULTADO
+
+d)
+LEIA  a, b, c
+BC ←POTENCIA (b, c)
+RESULTADO ← a * bc
+ESCREVA RESULTADO
