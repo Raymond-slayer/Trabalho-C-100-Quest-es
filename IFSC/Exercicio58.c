@@ -4,11 +4,11 @@
 int main()
 {
     /*
-58. Escreva um algoritmo que leia o código de um aluno e suas três notas. Calcule a
-média ponderada do aluno, considerando que o peso para a maior nota seja 4 e
-para as duas restantes, 3. Mostre o código do aluno, suas três notas, a média
-calculada e uma mensagem: "APROVADO" se a média for maior ou igual a 5 e
-"REPROVADO" se a média for menor que 5.
+58. Escreva um algoritmo que leia o cÃ³digo de um aluno e suas trÃªs notas. Calcule a
+mÃ©dia ponderada do aluno, considerando que o peso para a maior nota seja 4 e
+para as duas restantes, 3. Mostre o cÃ³digo do aluno, suas trÃªs notas, a mÃ©dia
+calculada e uma mensagem: "APROVADO" se a mÃ©dia for maior ou igual a 5 e
+"REPROVADO" se a mÃ©dia for menor que 5.
 */
 #include <stdio.h>
 
@@ -16,32 +16,32 @@ int main() {
 int Cod_aluno;
 
 
-printf("Digite o código do aluno de 100 a 104: ");
+printf("Digite o cÃ³digo do aluno de 100 a 104: ");
 scanf("%d", &Cod_aluno);
 printf("\n\n");
 
 switch(Cod_aluno){
     case 100:
-        printf("José Raimundo");
+        printf("JosÃ© Raimundo");
         break;
 
     case 101:
-        printf("José Antonio");
+        printf("JosÃ© Antonio");
         break;
 
     case 102:
-        printf("José Carlos");
+        printf("JosÃ© Carlos");
         break;
 
     case 103:
-        printf("José Rodrigo");
+        printf("JosÃ© Rodrigo");
         break;
 
     case 104:
-        printf("José Alfredo");
+        printf("JosÃ© Alfredo");
         break;
 default:
-printf("Opção inválida aluno não existe");
+printf("OpÃ§Ã£o invÃ¡lida aluno nÃ£o existe");
 
 }
 printf("\n\n");
@@ -74,7 +74,7 @@ printf("\n\n");
 
 float soma  = (nota1 * peso4) + (nota2 * peso3) + (nota3 * peso3);
 
-printf("%.2f é a soma das notas", soma);
+printf("%.2f Ã© a soma das notas", soma);
 printf("\n\n");
 
 int pesos = peso4 + peso3 + peso3;
@@ -87,7 +87,7 @@ float media = soma / pesos;
 printf("\n\n");
 
 
-printf("Media ponderada é de: %.2f", media);
+printf("Media ponderada Ã© de: %.2f", media);
 printf("\n\n");
 
 
