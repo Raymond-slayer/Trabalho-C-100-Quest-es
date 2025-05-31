@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//100. Crie um programa que peça 10 números inteiros e apresente: a média, o maiore o menor.
+//100. Crie um programa que peÃ§a 10 nÃºmeros inteiros e apresente: a mÃ©dia, o maiore o menor.
 
 int main()
 {
@@ -40,9 +40,9 @@ int main()
     float media = soma / 10.0;
 
 
-    printf("\nMédia: %.2f\n", media);
-    printf("Maior número: %d\n", maior);
-    printf("Menor número: %d\n", menor);
+    printf("\nMÃ©dia: %.2f\n", media);
+    printf("Maior nÃºmero: %d\n", maior);
+    printf("Menor nÃºmero: %d\n", menor);
 
 
 
