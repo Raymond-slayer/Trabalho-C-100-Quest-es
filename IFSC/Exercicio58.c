@@ -1,9 +1,9 @@
 /*
-58. Escreva um algoritmo que leia o cÛdigo de um aluno e suas trÍs notas. Calcule a
-mÈdia ponderada do aluno, considerando que o peso para a maior nota seja 4 e
-para as duas restantes, 3. Mostre o cÛdigo do aluno, suas trÍs notas, a mÈdia
-calculada e uma mensagem: "APROVADO" se a mÈdia for maior ou igual a 5 e
-"REPROVADO" se a mÈdia for menor que 5.
+58. Escreva um algoritmo que leia o c√≥digo de um aluno e suas tr√™s notas. Calcule a
+m√©dia ponderada do aluno, considerando que o peso para a maior nota seja 4 e
+para as duas restantes, 3. Mostre o c√≥digo do aluno, suas tr√™s notas, a m√©dia
+calculada e uma mensagem: "APROVADO" se a m√©dia for maior ou igual a 5 e
+"REPROVADO" se a m√©dia for menor que 5.
 */
 #include <stdio.h>
 
@@ -11,32 +11,38 @@ int main() {
 int Cod_aluno;
 
 
-printf("Digite o cÛdigo do aluno de 100 a 104: ");
+printf("Digite o c√≥digo do aluno de 100 a 104: ");
 scanf("%d", &Cod_aluno);
+
+    if (Cod_aluno < 100 || Cod_aluno > 104) {
+    printf("Op√ß√£o inv√°lida! Aluno n√£o existe.\n\n");
+    return 1;  
+}
+
 printf("\n\n");
 
 switch(Cod_aluno){
     case 100:
-        printf("JosÈ Raimundo");
+        printf("Jos√© Raimundo");
         break;
 
     case 101:
-        printf("JosÈ Antonio");
+        printf("Jos√© Antonio");
         break;
 
     case 102:
-        printf("JosÈ Carlos");
+        printf("Jos√© Carlos");
         break;
 
     case 103:
-        printf("JosÈ Rodrigo");
+        printf("Jos√© Rodrigo");
         break;
 
     case 104:
-        printf("JosÈ Alfredo");
+        printf("Jos√© Alfredo");
         break;
 default:
-printf("OpÁ„o inv·lida aluno n„o existe");
+printf("Op√ß√£o inv√°lida aluno n√£o existe");
 
 }
 printf("\n\n");
@@ -69,7 +75,7 @@ printf("\n\n");
 
 float soma  = (nota1 * peso4) + (nota2 * peso3) + (nota3 * peso3);
 
-printf("%.2f È a soma das notas", soma);
+printf("%.2f √© a soma das notas", soma);
 printf("\n\n");
 
 int pesos = peso4 + peso3 + peso3;
@@ -82,7 +88,7 @@ float media = soma / pesos;
 printf("\n\n");
 
 
-printf("Media ponderada È de: %.2f", media);
+printf("Media ponderada √© de: %.2f", media);
 printf("\n\n");
 
 
